@@ -4,13 +4,13 @@ import languages from '../language/index'
 
 const LANGUAGES: any = languages
 
-const LanguageContext = createContext({} as any)
+const LanguageCtx = createContext({} as any)
 
 interface Props {
     children: ReactNode
 }
 
-const LanguageCtx = ({ children }: Props) => {
+const LanguageProv = ({ children }: Props) => {
     const [language, setLanguage] = useState<any>(LANGUAGES.english)
 
     const changeLanguage = (event: any) => {
@@ -28,10 +28,10 @@ const LanguageCtx = ({ children }: Props) => {
     )
 }
 
-const getTexts = () => useContext(LanguageContext);
+const getTexts = () => useContext(LanguageCtx);
 
 export {
     getTexts,
-    LanguageContext,
+    LanguageProv,
     LanguageCtx
 }

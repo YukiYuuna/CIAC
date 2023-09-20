@@ -22,7 +22,7 @@ const MainTopic = ({ hasButton, hasTitleImage, titleText, mainText, background, 
                     {
                         hasTitleImage && <Image src={titleImage} alt={"commaImg"} className="mt-6"/>
                     }
-                    <span className={`${titleText?.length < 30 ? styles.titleTextLarge : styles.titleTextMedium} ${!hasTitleImage ? styles.largeTitleImage : ""}`}>
+                    <span className={`${styles.titleTextMedium} ${!hasTitleImage ? styles.largeTitleImage : ""}`}>
                         {titleText}
                     </span>
                 </div>
