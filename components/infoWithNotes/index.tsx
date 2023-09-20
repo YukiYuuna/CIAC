@@ -32,7 +32,7 @@ const InfoWithNotes = ({ hasTitleImage, titleText, mainText, background, titleIm
                 </div>
 
                 <div className={styles.mainTextContainer}>
-                    <div className={styles.mainText}>
+                    <div className={`${styles.mainText} ${mainText.length > 20 ? "text-l" : ""}`}>
                         {mainText}
                     </div>
                 </div>

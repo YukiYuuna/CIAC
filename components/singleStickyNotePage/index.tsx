@@ -9,7 +9,7 @@ interface Props {
     noteText: string;
 }
 const SingleStickyNotePage = ({ noteImageSrc, circleImageSrc, noteWidth, noteHeight, noteText }: Props) => {
-    console.log(noteWidth)
+
     return (
         <div className={styles.singleStickyContainer}>
             <div className={styles.stickyWrapper}>

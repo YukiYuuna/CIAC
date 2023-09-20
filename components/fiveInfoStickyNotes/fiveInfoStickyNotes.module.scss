@@ -13,8 +13,10 @@
 }
 .firstRow {
   @apply flex flex-row;
+  max-width: 1200px;
 }
 
 .secondRow {
   @apply flex flex-row;
+  max-width: 800px;
 }

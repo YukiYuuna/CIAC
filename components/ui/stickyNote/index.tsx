@@ -9,7 +9,6 @@ interface Props {
     noteText: string;
 }
 const StickyNote = ({ noteImageSrc, circleImageSrc, noteWidth = 255, noteHeight = 255, noteText }: Props) => {
-    console.log("note Width",noteWidth)
     return (
         <div className={styles.stickyNoteContainer}>
             <Image src={noteImageSrc} className={styles.stickyNoteBackground} height={noteHeight} width={noteWidth} alt={"stickyNote"}/>
