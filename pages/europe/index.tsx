@@ -193,6 +193,7 @@ const Europe = () => {
                 </div>
             </div>
             <ContentReview
+                heading="Съдържание"
                 contentImage={infoContent} background={"whiteBackgroundEurope"}
                 className={styles.sectionContainer}
             />

@@ -97,7 +97,7 @@ const WesternBalkans = () => {
                 </div>
             </div>
         </div>
-        <ContentReview contentImage={infoContent} background={styles.yellowText} className={styles.sectionContainer}/>
+        <ContentReview heading="Съдържание" contentImage={infoContent} background={styles.yellowText} className={styles.sectionContainer}/>
         <MainTopic
             titleImage={yellowTitleCircle}
             background={styles.yellowBackground}
@@ -595,6 +595,7 @@ const WesternBalkans = () => {
             className={styles.sectionContainer}
         />
         <ContentReview
+            heading="Съдържание"
             contentImage={contentReview3}
             background={styles.whiteBackground}
             className={styles.sectionContainer}

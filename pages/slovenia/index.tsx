@@ -103,6 +103,7 @@ const Slovenia = () => {
                 </div>
             </div>
             <ContentReview
+                heading="Съдържание"
                 contentImage={infoContent} background={styles.redText}
                 className={styles.sectionContainer}
             />
@@ -236,6 +237,7 @@ const Slovenia = () => {
             />
 
             <ContentReview
+                heading="Съдържание"
                 contentImage={sloveniaContentTwo} background={styles.bgRed}
                 className={styles.sectionContainer}
             />
@@ -460,7 +462,7 @@ const Slovenia = () => {
 
             <Exam titleImage={redTitleCircle} background={"redBackground"} className={styles.sectionContainer}/>
             <StartingModule moduleBackgroundColor={styles.whiteBackground} moduleText={"Модул 3 Словения"} className={styles.sectionContainer}/>
-            <ContentReview contentImage={contentReview3} background={styles.whiteBackground} className={styles.sectionContainer}/>
+            <ContentReview heading="Съдържание" contentImage={contentReview3} background={styles.whiteBackground} className={styles.sectionContainer}/>
             <div id={"impact-assessment"} className={`${styles.sectionContainer} ${styles.impactAssessment} ${styles.bgBlue}`}>
                 <div className={styles.IATitle}>
                     <span>Живот, работа, пътуване в ЕС</span>
