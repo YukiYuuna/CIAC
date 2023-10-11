@@ -1,11 +1,11 @@
 {
   "Europe": {
-    "moduleOneEurope": "Модул 1 Европа",
+    "moduleOneEurope": "Module 1 Europe",
     "SampleText": "Wow",
     "SampleText2": "Wow"
   },
   "Bulgaria": {
-    "ModuleOne": "Модул 1 България",
+    "_1_Main": "Module 1 Bulgaria",
     "SampleText2": "Wow"
   },
   "WesternBalkans": {

@@ -44,8 +44,7 @@ import {getTexts} from "@/contexts/LanguageContext";
 
 const HomePage = () => {
     const [theme, setTheme] = useState("dark");
-    const { texts } = getTexts();
-    console.log("==> ",texts)
+    const { texts: {Bulgaria: texts} } = getTexts();
 
     const changeTheme = () => {
         theme === "dark" ? setTheme("light") : setTheme("dark")
@@ -54,29 +53,29 @@ const HomePage = () => {
     return (
         <div className={"h-full"}>
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
-            <StartingModule moduleText={"Модул 1 България"} moduleBackgroundColor={"greenBackground"} className={styles.sectionContainer}/>
-            <ContentReview contentImage={infoContent} background={"whiteBackground"} className={styles.sectionContainer}/>
+            <StartingModule moduleText={texts.M1_title} moduleBackgroundColor={"greenBackground"} className={styles.sectionContainer}/>
+            <ContentReview heading={texts.M1_content_heading} contentImage={infoContent} background={"whiteBackground"} className={styles.sectionContainer}/>
             <MainTopic titleImage={greenTitleCircle} background={"greenBackground"} hasButton={true} hasTitleImage={true}
                        className={styles.sectionContainer}
-                       titleText={"Политика"} mainText={"Политиката на България се основава на няколко ключови принципа и ценности които определят направлението и приоритетите на държавата. Ето някои от основите за политиката на България."}/>
-            <CenteredScheme hasTitle={true} centerImageSrc={scheme1} text={"Държавно управление на Република България"}/>
-            <TopLeftImage/>
-            <TopRightImage/>
+                       titleText={texts.M1_topic1} mainText={texts.M1_topic1_text}/>
+            <CenteredScheme title={texts.M1_topic2} centerImageSrc={scheme1} text={texts.M1_topic2_text}/>
+            <TopLeftImage title={texts.M1_topic3} text1={texts.M1_topic3_text1} text2={texts.M1_topic3_text2} text3={texts.M1_topic3_text3}/>
+            <TopRightImage title={texts.M1_topic3} text1={texts.M1_topic3_text4} text2={texts.M1_topic3_text5}/>
             <MainTopic
                 titleImage={redTitleCircle}
                 background={"redBackground"}
                 hasButton={true}
                 hasTitleImage={true}
-                titleText={"Общество"}
-                mainText={"Българското общество е разнообразно и многопластово, съставено от граждани с различни социални, културни и етнически идентичности. То е резултат от историческото развитие на страната и включва различни социални групи, като работници, фермери, бизнесмените, интелектуалците, пенсионерите и други."}
+                titleText={texts.M1_topic5}
+                mainText={texts.M1_topic5_text}
                 className={styles.sectionContainer}
             />
             <MainTopic
                 background={"redBackground"}
                 hasButton={false}
                 hasTitleImage={false}
-                titleText={"Примерни организации са:"}
-                mainText={"социалните партньори (синдикати и сдружения на работодателите); неправителствените организации (например за защита на околната среда и защита на потребителите); местните организации (например младежки и семейни групировки)."}
+                titleText={texts.M1_topic6}
+                mainText={texts.M1_topic6_text}
                 downRightImage={peopleDigging}
                 className={styles.sectionContainer}
             />
@@ -85,8 +84,8 @@ const HomePage = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Институции"}
-                mainText={"България разполага с разнообразни институции, които играят важна роля в управлението на страната и осигуряват функционирането на различни сектори. По-долу ще разгледаме някои от основните институции в България:"}
+                titleText={texts.M1_topic7}
+                mainText={texts.M1_topic7_text}
                 downRightImage={peopleDigging}
                 className={styles.sectionContainer}
             />
@@ -96,19 +95,20 @@ const HomePage = () => {
                 background={"grayBackground"}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Информационни страници"}
-                mainText={"Гражданското участие е важен аспект на демократичното общество и представлява активното участие на гражданите в процесите на вземане на решения и формиране на обществените политики. То включва правото на глас, свободата на изразяване на мнение, свободата на сдружаване и мирното събиране. В България гражданското участие се осъществява чрез различни форми и инструменти:"}
+                titleText={texts.M1_topic10}
+                mainText={texts.M1_topic10_text}
+                notes={texts.M1_topic10_notes}
             />
             <Exam titleImage={redTitleCircle} background={"redBackground"} className={styles.sectionContainer}/>
-            <StartingModule moduleText={"Модул 2 България"} moduleBackgroundColor={"redBackground"} className={styles.sectionContainer}/>
-            <ContentReview contentImage={ContentReview2} background={"redBackground"} className={styles.sectionContainer}/>
+            <StartingModule moduleText={texts.M2_title} moduleBackgroundColor={"redBackground"} className={styles.sectionContainer}/>
+            <ContentReview heading={texts.M2_content_heading} contentImage={ContentReview2} background={"redBackground"} className={styles.sectionContainer}/>
             <MainTopic
                 background={"grayBackground"}
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Уроци по гражданско образование"}
-                mainText={"Уроците по гражданско образование имат за цел да развият при учениците основни граждански компетентности и да ги подготвят да бъдат активни и отговорни граждани. Ето едно общо описание на уроците по гражданско образование:"}
+                titleText={texts.M2_topic1}
+                mainText={texts.M2_topic1_text}
                 downRightImage={womenWorking}
                 className={styles.sectionContainer}
             />
@@ -116,16 +116,16 @@ const HomePage = () => {
                 background={"grayBackground"}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                mainText={""}
-                titleText={"Няколко примера за уроци по гражданско образование:"}
+                titleText={texts.M2_topic2}
+                notes={texts.M2_topic2_notes}
             />
             <MainTopic
                 background={"greenBackground"}
                 hasButton={false}
                 hasTitleImage={true}
                 titleImage={greenTitleCircle}
-                titleText={"Младежка ангажираност в действие"}
-                mainText={"Младежката ангажираност в действие представлява активното включване на младите хора в обществения живот и предприемането на конкретни действия за промяна. Тя насърчава младите хора да се ангажират с проблемите и предизвикателствата в своите общности и да работят за тяхното решаване. Това може да включва доброволчество, социални проекти, политическо ангажиране и други инициативи. "}
+                titleText={texts.M2_topic3}
+                mainText={texts.M2_topic3_text}
                 downRightImage={peopleWorking}
                 className={styles.sectionContainer}
             />
@@ -134,8 +134,8 @@ const HomePage = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Уроци по гражданско образование"}
-                mainText={"Младежката ангажираност, която включва активното участие и ангажиране на младите хора в обществените въпроси и инициативи, има множество ползи и предимства. Ето някои от тях:"}
+                titleText={texts.M2_topic4}
+                mainText={texts.M2_topic4_text}
                 downRightImage={cleaning}
                 className={styles.sectionContainer}
             />
@@ -145,8 +145,8 @@ const HomePage = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Възможности за младежката ангажираност"}
-                mainText={"Младежката ангажираност предлага разнообразни възможности за младите хора да се включат и да имат активна роля в обществото. Ето някои от тях:"}
+                titleText={texts.M2_topic6}
+                mainText={texts.M2_topic6_text}
                 downRightImage={greenHandsTree}
                 className={styles.sectionContainer}
             />
@@ -157,8 +157,8 @@ const HomePage = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={greenTitleCircle}
-                titleText={"Медийна грамотност"}
-                mainText={"Медийната грамотност и умението да се разпознават фалшиви новини са от изключителна важност в днешното информационно общество. Ето някои аспекти, свързани с тях:"}
+                titleText={texts.M2_topic8}
+                mainText={texts.M2_topic8_text}
                 downRightImage={falseNews}
                 className={styles.sectionContainer}
             />
@@ -168,21 +168,21 @@ const HomePage = () => {
                 hasButton={false}
                 hasTitleImage={true}
                 titleImage={redTitleCircle}
-                titleText={"Оценка на въздействието на младежката активност"}
-                mainText={"Оценката на въздействието на младежката активност включва оценка на личното развитие и уменията на младежите, тяхната гражданска отговорност, въздействието върху общността, влиянието върху политики и системи, както и устойчивостта на активността в дългосрочен план. Оценката може да се провежда с помощта на различни методи и данни, които събират информация за постигнатото въздействие."}
+                titleText={texts.M2_topic10}
+                mainText={texts.M2_topic10_text}
                 downRightImage={heartPeople}
                 className={styles.sectionContainer}
             />
             <Exam titleImage={redTitleCircle} background={"redBackground"} className={styles.sectionContainer}/>
-            <StartingModule moduleText={"Модул 3 България"} moduleBackgroundColor={"grayBackgroundBulgaria"} className={styles.sectionContainer}/>
-            <ContentReview contentImage={ContentReview2} background={"redBackground"} className={styles.sectionContainer}/>
+            <StartingModule moduleText={texts.M3_title} moduleBackgroundColor={"grayBackgroundBulgaria"} className={styles.sectionContainer}/>
+            <ContentReview heading={texts.M3_content_heading} contentImage={ContentReview2} background={"redBackground"} className={styles.sectionContainer}/>
             <MainTopic
                 background={"greenBackground"}
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={greenTitleCircle}
-                titleText={"Живот, работа, пътуване в ЕС."}
-                mainText={"Животът, работата и пътуванията в Европейския съюз (ЕС) предлагат разнообразни възможности и предимства. В ЕС има различни страни с богата култура, история и езици, които може да изследвате."}
+                titleText={texts.M3_topic1}
+                mainText={texts.M3_topic1_text}
                 downRightImage={workAndTravel1}
                 className={styles.sectionContainer}
             />
@@ -190,9 +190,8 @@ const HomePage = () => {
                 background={"redBackground"}
                 hasButton={false}
                 hasTitleImage={false}
-                titleText={""}
                 titleImage={greenTitleCircle}
-                mainText={"Животът в ЕС предоставя широк спектър от услуги и социални гаранции, като здравеопазване, образование и социална помощ. Системите за социална сигурност и защита на работниците обикновено са добре развити, като включват пенсии, болнични и осигуряване при безработица. Работата в ЕС предоставя възможности за кариерно развитие и професионални предимства. Гражданите на държавите - членки могат да търсят работа в други страни от ЕС без ограничения. Това отваря врати за разнообразни работни места и професионални възможности.\n"}
+                mainText={texts.M3_topic2_text}
                 downRightImage={workAndTravel2}
                 className={styles.sectionContainer}
             />
@@ -201,20 +200,20 @@ const HomePage = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleImage={grayTitleCircle}
-                titleText={"Какво прави ЕС за своите граждани?"}
-                mainText={"Европейският съюз (ЕС) предприема множество мерки и инициативи, за да защити и подпомогне своите граждани. ЕС има широк обхват от политики и програми, насочени към различни аспекти на живота на гражданите, включително:"}
+                titleText={texts.M3_topic4}
+                mainText={texts.M3_topic4_text}
                 downRightImage={euForPeople}
                 className={styles.sectionContainer}
             />
-            <DownLeftImageTexts background={"grayBackgroundBulgaria"} leftImage={handsTree}/>
+            <DownLeftImageTexts texts={texts.M3_topic5_texts} background={"grayBackgroundBulgaria"} leftImage={handsTree}/>
 
         <MainTopic
             background={"greenBackground"}
             hasButton={true}
             hasTitleImage={true}
             titleImage={grayTitleCircle}
-            titleText={"Кои са европейските инструменти?"}
-            mainText={"Европейският съюз (ЕС) разполага с разнообразни инструменти, които се използват за изграждане и управление на общата политика на ЕС. Някои от основните европейски инструменти включват:"}
+            titleText={texts.M3_topic7}
+            mainText={texts.M3_topic7_text}
             downRightImage={europeanInstruments}
             className={styles.sectionContainer}
         />
@@ -224,8 +223,8 @@ const HomePage = () => {
             hasButton={true}
             hasTitleImage={true}
             titleImage={grayTitleCircle}
-            titleText={"Документи и публикации на програмата „Еразъм+“."}
-            mainText={"За да следвате приоритетите на програмата Еразъм+, можете да се запознаете с документите и публикациите, свързани с нея. Ето някои от основните източници на информация:"}
+            titleText={texts.M3_topic9}
+            mainText={texts.M3_topic9_text}
             downRightImage={docs}
             className={styles.sectionContainer}
         />

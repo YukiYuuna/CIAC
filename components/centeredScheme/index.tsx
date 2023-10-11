@@ -4,22 +4,22 @@ import greenTitleCircle from "@/public/img/bulgaria/greenTitleCircle.png";
 import React from "react";
 
 interface Props {
-    hasTitle?: boolean;
+    title?: string;
     centerImageSrc: any;
     text: string;
 }
 
-const CenteredScheme = ({ hasTitle, centerImageSrc, text }: Props) => {
+const CenteredScheme = ({ title, centerImageSrc, text }: Props) => {
 
     return (
         <>
-            <div className={`${styles.pageContainer} ${!hasTitle ? "mt-6": ""}`}>
+            <div className={`${styles.pageContainer} ${title == null ? "mt-6": ""}`}>
                 {
-                    hasTitle &&
+                    title != null &&
                     <div className={styles.titleContainer}>
                         <Image src={greenTitleCircle} alt={"commaImg"} className="mt-6"/>
                         <span className={styles.titleText}>
-                            Схема
+                            {title}
                         </span>
                     </div>
                 }

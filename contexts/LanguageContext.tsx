@@ -11,7 +11,7 @@ interface Props {
 }
 
 const LanguageProv = ({ children }: Props) => {
-    const [language, setLanguage] = useState<any>(LANGUAGES.eng)
+    const [language, setLanguage] = useState<any>(LANGUAGES.bg)
 
     const changeLanguage = (event: any) => {
         setLanguage(LANGUAGES[event.target.value])
