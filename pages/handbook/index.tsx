@@ -36,11 +36,10 @@ const Handbook = () => {
             newWindow.focus();
         }
     };
-
     return (
             <div className={styles.sectionContainer}>
                 <div className={styles.handbookContainer}>
-                    <img src={'./img/handbook.png'} width={400}/>
+                    <img src={`./img/resources/handbook-${locale}.png`} width={400}/>
                     <div className={styles.downloadContainer} onClick={() => handleOpenNewWindow()}>
                         <p className={styles.downloadText}>{texts.download}</p>
                     </div>

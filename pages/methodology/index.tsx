@@ -38,7 +38,7 @@ const Methodology = () => {
     return (
         <div className={styles.sectionContainer}>
             <div className={styles.handbookContainer}>
-                <img src={'./img/studyMethodology.png'} width={400}/>
+            <img src={`./img/resources/methodology-${locale}.png`} width={400}/>
                 <div className={styles.downloadContainer} onClick={() => handleOpenNewWindow()}>
                     <p className={styles.downloadText}>{texts.download}</p>
                 </div>
