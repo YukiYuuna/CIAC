@@ -1,5 +1,19 @@
 {
   "Europe": {
+    "chatGptQuestion1": "Kateri so ključni izzivi za politiko v Evropi? ",
+    "chatGptQuestion2": "Kako se pristopi k državljanski vzgoji razlikujejo v različnih evropskih državah? ",
+    "chatGptQuestion3": "Katere so najpomembnejše institucije Evropske unije (EU)?",
+    "chatGptQuestion4": "Katere so glavne metode in strategije za spodbujanje državljanske udeležbe v Evropski uniji? ",
+    "chatGptQuestion5": "Kako državljanska udeležba prispeva h krepitvi evropske demokracije? ",
+    "chatGptQuestion6": "Kako prostovoljstvo in mladinski projekti vplivajo na angažiranost mladih v Evropski uniji? ",
+    "chatGptQuestion7": "Kateri so glavni viri in orodja za spodbujanje udejstvovanja mladih v Evropski uniji?",
+    "chatGptQuestion8": "Kako sodelovanje mladih v Evropski uniji prispeva k reševanju družbenih izzivov? ",
+    "chatGptQuestion9": "Kako lahko mladi izkoristijo priložnosti za življenje, delo in potovanja v Evropski uniji?",
+    "chatGptQuestion10": "Kako lahko mladi aktivno sodelujejo v javnem življenju EU in prispevajo k povezovanju in sodelovanju med državami članicami? ",
+    "chatGptQuestion11": "Kakšne pobude nudi Evropska unija (EU) svojim državljanom na področju socialne zaščite, izobraževanja, zdravstva, zaposlovanja in mobilnosti? ",
+    "chatGptQuestion12": "Kateri so ključni instrumenti gospodarskega sodelovanja v EU? ",
+    "chatGptQuestion13": "Kako program Erasmus podpira mlade v EU? ",
+    "textForVideo": "Več o državljanski vzgoji v našem življenju - EVROPA",
     "Content_heading": "Vsebina",
     "M1_title": "Modul 1 Evropa",
     "M1_topic1_quotes": [
@@ -105,7 +119,19 @@
     ]
   },
   "Bulgaria": {
-    "textForVideo": "Повече за гражданското образование в нашия живот - БЪЛГАРИЯ",
+    "chatGptQuestion1": "Katera temeljna načela in vrednote so osnova politike v Bolgariji in kako vplivajo na oblikovanje strateških prednostnih nalog države?",
+    "chatGptQuestion2": "Kakšne posebne pobude in ukrepe sprejema Bolgarija v izobraževanju in znanosti za posodobitev izobraževalnega sistema, spodbujanje raziskovalnih dejavnosti, razvoj informacijskih tehnologij ter podporo ustvarjalnosti in inovativnosti?  ",
+    "chatGptQuestion3": "Kako se Bolgarija prilagaja raznolikosti v svoji družbi in kakšne pobude sprejema za zagotavljanje enakih možnosti za različne družbene skupine? ",
+    "chatGptQuestion4": "Katere so glavne institucije v Bolgariji in kakšno vlogo imajo pri upravljanju države?",
+    "chatGptQuestion5": "Kako državljanska vzgoja v Bolgariji prispeva k razvijanju državljanskih kompetenc pri mladih?",
+    "chatGptQuestion6": "Kakšne so koristi in prednosti sodelovanja mladih v državljanski in družbeni dejavnosti v Bolgariji?",
+    "chatGptQuestion7": "Kakšne so možnosti za mlade, da se vključijo in igrajo aktivno vlogo v bolgarski družbi?",
+    "chatGptQuestion8": "Kakšno vlogo imata medijska pismenost in sposobnost prepoznavanja lažnih novic v sodobni družbi in kako te veščine izboljšati?",
+    "chatGptQuestion9": "Kakšne so priložnosti in prednosti življenja, dela in potovanja v Evropski uniji (EU)?",
+    "chatGptQuestion10": "Kakšne ukrepe in pobude sprejema Evropska unija (EU) za pomoč svojim državljanom?",
+    "chatGptQuestion11": "Katere ključne instrumente uporablja Evropska unija (EU) za oblikovanje in upravljanje svojih skupnih politik?",
+    "chatGptQuestion12": "Kje in kako se lahko informiramo in izvemo o priložnostih, ki jih ponuja program Erasmus?",
+    "textForVideo": "Več o državljanski vzgoji v našem življenju - BOLGARIJA",
     "M1_title": "Modul 1 Bolgarija",
     "M1_content_heading": "Vsebina",
     "M1_topic1": "Politika",
@@ -231,6 +257,18 @@
     ]
   },
   "WesternBalkans": {
+    "chatGptQuestion1": "Katere so glavne prioritete in cilji politike na Zahodnem Balkanu? ",
+    "chatGptQuestion2": "Kakšni ukrepi so sprejeti za razvoj civilne družbe na Zahodnem Balkanu? ",
+    "chatGptQuestion3": "Kateri so informacijski viri in spletne strani z novicami, kjer lahko pridobimo aktualne novice, analize in članke o regiji Zahodnega Balkana?",
+    "chatGptQuestion4": "Ali so v formalnem ali neformalnem izobraževalnem sistemu Zahodnega Balkana predvidene ure državljanske vzgoje? ",
+    "chatGptQuestion5": "Kako angažiranost mladih prispeva k socialni integraciji mladih na Zahodnem Balkanu?",
+    "chatGptQuestion6": "Katere institucije in programi so namenjeni spodbujanju angažiranosti mladih v regiji Zahodnega Balkana?",
+    "chatGptQuestion7": "Kakšne prednosti bi povečana aktivnost mladih prinesla regiji Zahodnega Balkana?",
+    "chatGptQuestion8": "S kakšnimi izzivi se soočajo aktivni državljani Zahodnega Balkana?",
+    "chatGptQuestion9": "Kakšne so prioritete države na Zahodnem Balkanu? ",
+    "chatGptQuestion10": "Kako EU spodbuja sodelovanje med državami Zahodnega Balkana? ",
+    "chatGptQuestion11": "Kako program Erasmus podpira izobraževanje na Zahodnem Balkanu? ",
+    "textForVideo": "Več o državljanski vzgoji v naših življenjih - ZAHODNI BALKAN",
     "Content_heading": "Vsebina",
     "M1_title": "Modul 1 Zahodni Balkan",
     "M1_topic1_quotes": [
@@ -332,6 +370,17 @@
     ]
   },
   "Slovenia": {
+    "chatGptQuestion1": "Kakšni sta vlogi predsednika in premierja v Sloveniji?",
+    "chatGptQuestion2": "Kako Slovenija dosega enotnost v družbi in kakšen je pomen tega procesa za državo?",
+    "chatGptQuestion3": "Katera so ključna področja, ki jih pokriva delo institucij v Sloveniji, vključno z zakonodajo, izvršilno oblastjo, pravosodjem, volilnimi procesi in drugimi vidiki javnega življenja?",
+    "chatGptQuestion4": "Kako se državljani v Sloveniji udeležujejo volitev na različnih ravneh oblasti? ",
+    "chatGptQuestion5": "Kakšni so cilji državljanske vzgoje v Sloveniji? ",
+    "chatGptQuestion6": "Kakšen je pomen angažiranja mladih v Sloveniji in kako vpliva na razvoj mladih?",
+    "chatGptQuestion7": "Kakšne priložnosti in pobude ponuja mladinski sektor v Sloveniji?",
+    "chatGptQuestion8": "Kako je v Sloveniji definiran pojem aktivnega državljana?",
+    "chatGptQuestion9": "Kakšne posebne ugodnosti in podporo nudi Evropska unija državljanom Slovenije?",
+    "chatGptQuestion10": "Kakšne možnosti mobilnosti in sodelovanja ponuja program Erasmus v Sloveniji?",
+    "textForVideo": "Več o državljanski vzgoji v našem življenju - Slovenija",
     "Content_heading": "Vsebina",
     "M1_title": "Modul 1 Slovenija",
     "M1_topic1_quotes": [
