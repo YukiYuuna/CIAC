@@ -1,6 +1,7 @@
 import {getTexts} from "@/contexts/LanguageContext";
 import styles from './groups.module.scss'
-import LargeTextContainer from "@/components/ui/largeTextContainer";
+import "../../app/globals.scss";
+
 
 const Groups = () => {
 
@@ -11,7 +12,14 @@ const Groups = () => {
             <div className={styles.groups}>
                 {texts.title}
             </div>
-            <LargeTextContainer text={texts.content} imgSrc={'./img/targetGroups.png'}/>
+            <div className={styles.container}>
+                <div className={styles.textContainer}>
+                    {texts.content}
+                </div>
+            </div>
+            <div className={styles.imgContainer}>
+                <img src={'./img/targetGroups.png'}/>
+            </div>
         </div>
     )
 }

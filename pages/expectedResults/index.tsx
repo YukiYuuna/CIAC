@@ -1,16 +1,28 @@
 import {getTexts} from "@/contexts/LanguageContext";
-import styles from "@/pages/goals/goals.module.scss";
 import LargeTextContainer from "@/components/ui/largeTextContainer";
+import "../../app/globals.scss";
+import styles from './expectedResults.module.scss'
 
 const ExpectedResults = () => {
     const {texts: {expectedResults: texts}} = getTexts();
+    var parse = require('html-react-parser');
 
     return (
         <div className={styles.sectionContainer}>
             <div className={styles.aboutProject}>
                 {texts.title}
             </div>
-            <LargeTextContainer text={texts.content} imgSrc={'./img/expectedResults.png'}/>
+            <div className={styles.container}>
+                <div className={styles.textContainer}>
+                    {texts.content}
+                </div>
+                <div className={styles.imgContainer}>
+                    <img src={'./img/expectedResults.png'}/>
+                </div>
+            </div>
+            <div className={styles.textContainer2}>
+                {parse(texts.content2)}
+            </div>
         </div>
     )
 }

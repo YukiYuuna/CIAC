@@ -1,6 +1,5 @@
 .sectionContainer {
     @apply py-4 relative overflow-hidden;
-    height: 1080px;
     width: 100%;
     padding: 100px;
 }
@@ -17,3 +16,27 @@
         background-color: #FBAE25 !important;
     }
 }
+
+.container {
+    @apply relative flex flex-row;
+    margin-top: 60px;
+}
+
+.textContainer {
+    @apply relative;
+    font-size: 23px;
+    text-align: justify;
+    width: 90%;
+}
+
+
+.imgContainer {
+    @apply mx-auto;
+    position: relative;
+    min-width: 800px;
+    max-width: 1200px;
+    height: 605px;
+    padding: 20px;
+}
+
+

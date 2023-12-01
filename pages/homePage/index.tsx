@@ -409,7 +409,13 @@ const HomePage = () => {
                 downRightImage={heartPeople}
                 className={styles.sectionContainer}
             />
-            <Exam titleImage={redTitleCircle} background={"redBackground"} className={styles.sectionContainer} downloadLink={downloadLinkTwo}/>
+            <Exam titleImage={redTitleCircle}
+                  background={"redBackground"}
+                  className={styles.sectionContainer}
+                  downloadLink={downloadLinkTwo}
+                  btnClass={styles.redText}
+                  scribbleImg={'/img/redScribble.png'}
+            />
             <StartingModule moduleText={texts.M3_title} moduleBackgroundColor={"grayBackground"}
                             className={styles.sectionContainer}/>
             <ContentReview

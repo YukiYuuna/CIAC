@@ -1,6 +1,5 @@
 .sectionContainer {
   @apply py-4 relative overflow-hidden;
-  height: 1080px;
   width: 100%;
   padding: 100px;
 }
@@ -16,4 +15,25 @@
   ::-webkit-scrollbar-thumb {
     background-color: #FBAE25 !important;
   }
+}
+
+.container {
+  @apply relative flex flex-row;
+  margin-top: 120px;
+}
+
+.textContainer {
+  @apply relative;
+  font-size: 23px;
+  text-align: justify;
+  width: 100%;
+}
+
+
+.imgContainer {
+  @apply mx-auto;
+  position: relative;
+  width: 800px !important;
+  height: 485px;
+  padding: 20px;
 }

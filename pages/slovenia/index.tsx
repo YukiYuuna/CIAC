@@ -417,7 +417,13 @@ const Slovenia = () => {
                 </div>
             </div>
 
-            <Exam titleImage={redTitleCircle} background={"redBackground"} className={styles.sectionContainer} downloadLink={downloadLinkTwo}/>
+            <Exam titleImage={redTitleCircle}
+                  background={"redBackground"} className={styles.sectionContainer}
+                  downloadLink={downloadLinkTwo}
+                  btnClass={styles.redText}
+                  scribbleImg={'/img/whiteScribble.svg'}
+                  scribbleImgClass={styles.scribbleSvg}
+            />
             <StartingModule
                 moduleBackgroundColor={styles.whiteBackground}
                 moduleText={texts.M3_title}
@@ -552,7 +558,11 @@ const Slovenia = () => {
                 text5={parse(texts.M3_topic10_texts[4]) as string}
                 className={styles.sectionContainer}
             />
-            <Exam titleImage={redTitleCircle} background={styles.bgRed} className={styles.sectionContainer} downloadLink={downloadLinkThree}/>
+            <Exam
+                btnClass={styles.redText}
+                scribbleImg={'/img/whiteScribble.svg'}
+                scribbleImgClass={styles.scribbleSvg}
+                titleImage={redTitleCircle} background={styles.bgRed} className={styles.sectionContainer} downloadLink={downloadLinkThree}/>
         </div>
     );
 };

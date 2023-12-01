@@ -1,0 +1,96 @@
+.sectionContainer {
+  @apply py-4 relative overflow-hidden;
+  width: 100%;
+  padding: 100px;
+}
+
+.partnership {
+  color: #686767;
+
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.partnerTitle {
+  @apply mt-4;
+  color: #ADACAC;
+
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.partnerText {
+  @apply mt-4;
+  color: #000;
+
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.partnerBoxContainer {
+  @apply flex w-full justify-evenly;
+}
+
+
+.handbookContainer {
+  @apply flex flex-col;
+}
+
+.downloadContainer {
+  @apply flex justify-center items-center;
+}
+
+.downloadText {
+  color: #686767;
+
+  cursor: pointer;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  border-radius: 38px;
+  border: 2px solid #686767;
+  width: 140px;
+}
+
+.textContainer {
+  margin-top: 50px;
+  margin-left: auto;
+  overflow: auto;
+  width: 45%;
+  font-size: 30px;
+  max-height: 550px;
+
+  scrollbar-color: auto;
+}
+
+.organizationMail {
+  @apply flex justify-center;
+  color: #000;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.p {
+  @apply mb-4;
+  width: 300px;
+}
