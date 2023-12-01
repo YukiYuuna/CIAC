@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
   background: #F9F9F9;
   font-size: 22px;
 }
@@ -24,8 +23,7 @@
 }
 
 .navbarIcon {
-  width: 1920px !important;
-  height: 300px;
+  width: 100%;
 }
 
 .brand {
