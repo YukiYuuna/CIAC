@@ -9,6 +9,9 @@ import MainTopic from "@/components/mainTopic";
 import yellowTitleCircle from "../../public/img/europe/yellowTitleCircle.png";
 import blueTitleCircle from "../../public/img/europe/blueTitleCircle.png";
 import peopleWithPlanet from "../../public/img/europe/Group.png";
+import europeTravel from "../../public/img/europe/europe-travel.png";
+import girls from "../../public/img/europe/girls.png";
+import magnifier from "../../public/img/europe/magnifier.png";
 import grayTitleCircle from "../../public/img/bulgaria/grayTitleCircle.png";
 import Exam from "@/components/exam";
 import styles from './europe.module.scss';
@@ -206,7 +209,7 @@ const Europe = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleText={texts.M1_topic7}
-                downRightImage={peopleWithPlanet}
+                downRightImage={girls}
                 mainText={texts.M1_topic7_text}
                 className={`${styles.sectionContainer} ${styles.bgGray} ${styles.institutionsContainer}`}
                 chatGptMessage={texts.chatGptQuestion2}
@@ -550,7 +553,7 @@ const Europe = () => {
                 hasButton={true}
                 hasTitleImage={true}
                 titleText={texts.M3_topic1}
-                downRightImage={peopleWithPlanet}
+                downRightImage={europeTravel}
                 mainText={texts.M3_topic1_text}
                 className={styles.sectionContainer}
                 btnClass={styles.TEBtn}
