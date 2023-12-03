@@ -34,8 +34,6 @@
 }
 
 .secondCol {
-
-
   @apply flex flex-col pl-20;
   color: #686767;
   font-family: Montserrat;
@@ -67,8 +65,8 @@
   @apply justify-center flex flex-row items-center;
   max-width: 370px;
   border-bottom: 1px solid;
-  min-height: 170px;
-  max-height: 170px;
+  min-height: 220px;
+  max-height: 220px;
 }
 
 .text {
@@ -84,6 +82,7 @@
   font-size: 23px;
   margin-left: 10%;
   max-width: 80%;
-
+  margin-top: 50px;
+  margin-bottom: 0px;
   scrollbar-color: auto;
 }
