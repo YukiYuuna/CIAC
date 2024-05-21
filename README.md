@@ -1,3 +1,5 @@
+Тhe project is by request non-scalable and ran on resolution 1440-1920px
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
